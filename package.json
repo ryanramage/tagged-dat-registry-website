@@ -1,0 +1,32 @@
+{
+  "name": "tagged-dat-registry-website",
+  "version": "1.0.0",
+  "description": "search and find dats by tags",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "boom": "^2.9.0",
+    "dat-node": "^3.5.3",
+    "hapi": "^13.5.3",
+    "hapi-swagger": "^5.0.1-redman",
+    "hypercore-archiver": "^4.1.4",
+    "inert": "^4.2.0",
+    "joi": "^10.6.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "rc": "^1.2.1",
+    "request": "^2.81.0",
+    "require-directory": "^2.1.1",
+    "search-index": "0.14.0",
+    "version-route": "^1.0.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "start": "./bin/cli.js",
+    "dev": "./bin/cli.js --config=development.json"
+  }
+}
