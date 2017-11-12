@@ -4,5 +4,6 @@ module.exports = {
   port: 8080,
   indexPath: './index',
   archiveDir: './archive',
-  logLevel: 'error'
+  logLevel: 'error',
+  schemes: ["http"]
 }
